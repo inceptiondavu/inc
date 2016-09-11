@@ -82,8 +82,8 @@ body{
 
 footer{
     background: #0e0b16;
-    color: #f6f6f6;
     font-family: 'Roboto Slab', serif;
+    color: #f6f6f6;
 }
 
 #contact{
@@ -96,3 +96,21 @@ footer{
 }
 
 /* Events */
+
+.event-info{
+    cursor: pointer;
+}
+
+.event-info p{
+    font-family: sans-serif;
+    color: #000;
+}
+
+.event-info p > .name{
+    font-size: 38px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.event-info .desc-hide{
+    display: none;
+}
