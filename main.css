@@ -23,6 +23,10 @@ body{
     font-weight: bold;
 }
 
+#heading > a{
+    color: #f6f6f6;
+}
+
 #cta{
     background: #062f4f;
     border-bottom: 2px solid #e8e8e8;
