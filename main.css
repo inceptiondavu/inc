@@ -7,15 +7,15 @@
 body{
     margin: 0;
     padding: 0;
-    background: #062f4f;
+    background: #b5b5b7;
 }
 
 #heading{
     padding: 40px;
-    background: #0e0b16;
+    background: #252839;
     /* background: linear-gradient(top, #9e0b16, #fff); */
-    color: #f6f6f6;
     font-family: 'Dancing Script', cursive;
+    color: #f6f6f6;
 }
 
 #heading > h1{
@@ -24,19 +24,19 @@ body{
 }
 
 #heading h1 > a{
-    color: #f6f6f6;
+    color: #f2b632;
 }
 
 #cta{
-    background: #062f4f;
+    background: #b5b5b7;
     border-bottom: 2px solid #e8e8e8;
 }
 
 #register{
     width: 50%;
     padding: 20px;
-    background: #882601;
-    border-radius: 50%;
+    background: rgba(0,0,0,0.9);
+    border-radius: 30%;
 }
 
 #register > h2{
@@ -45,7 +45,7 @@ body{
 }
 
 #register a{
-    color: #f6f6f6;
+    color: #f9f9f9;
 }
 
 #events{
@@ -70,8 +70,8 @@ body{
 }
 
 #about{
-    color: #f6f6f6;
-    background: #062f4f;
+    color: #222;
+    background: #b5b5b7;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -80,12 +80,12 @@ body{
 }
 
 #about > div > h2{
-    color: #3cc47c; 
+    color: #0e0b16;
     font-size: 42px;
 }
 
 footer{
-    background: #0e0b16;
+    background: #252839;
     font-family: 'Roboto Slab', serif;
     color: #f6f6f6;
 }
@@ -95,7 +95,7 @@ footer{
 }
 
 #contact h2{
-    color: #3cc47c;
+    color: #f2b632;
     font-size: 42px;
 }
 
