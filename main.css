@@ -23,7 +23,7 @@ body{
     font-weight: bold;
 }
 
-#heading > a{
+#heading h1 > a{
     color: #f6f6f6;
 }
 
