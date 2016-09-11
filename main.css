@@ -1,0 +1,98 @@
+/*Front Page*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #062f4f;
+}
+
+#heading{
+    padding: 40px;
+    background: #0e0b16;
+    /* background: linear-gradient(top, #9e0b16, #fff); */
+    color: #f6f6f6;
+    font-family: 'Dancing Script', cursive;
+}
+
+#heading > h1{
+    font-size: 74px;
+    font-weight: bold;
+}
+
+#cta{
+    background: #062f4f;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+#register{
+    width: 50%;
+    padding: 20px;
+    background: #882601;
+    border-radius: 50%;
+}
+
+#register > h2{
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#register a{
+    color: #f6f6f6;
+}
+
+#events{
+    padding: 20px; 
+    margin-top: 70px;
+}
+
+#events button{
+    background: #0e0b16;
+    padding: 15px;
+    border-radius: 50% 50% 0 0;
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    height: 400px;
+    white-space: normal;
+    color: #f6f6f6;
+}
+
+#events button span{
+    font-weight: bold;
+}
+
+#about{
+    color: #f6f6f6;
+    background: #062f4f;
+    font-family: 'Roboto Slab', serif;
+}
+
+#about > div{
+    margin-bottom: 50px;
+}
+
+#about > div > h2{
+    color: #3cc47c; 
+    font-size: 42px;
+}
+
+footer{
+    background: #0e0b16;
+    color: #f6f6f6;
+    font-family: 'Roboto Slab', serif;
+}
+
+#contact{
+    margin-bottom: 50px;
+}
+
+#contact h2{
+    color: #3cc47c;
+    font-size: 42px;
+}
+
+/* Events */
