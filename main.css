@@ -27,6 +27,21 @@ body{
     color: #f2b632;
 }
 
+#desc-inception{
+    margin: 0;
+    background: #b5b5b7;
+}
+
+#desc-inception h3 span{
+    font-weight: bold;
+}
+
+#desc-inception blockquote{
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    font-family: 'Roboto Slab', serif;
+}
+
 #cta{
     background: #b5b5b7;
     border-bottom: 2px solid #e8e8e8;
