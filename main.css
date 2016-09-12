@@ -138,6 +138,10 @@ footer{
         padding: 15px;
         height: 300px;
     }
+    
+    footer h3{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 750px) and (min-width: 525px){
@@ -158,6 +162,10 @@ footer{
     .event-info p > .name{
         font-size: 24px;
     }
+    
+    footer h3{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 525px) and (min-width: 400px){
@@ -177,6 +185,10 @@ footer{
 
     .event-info p > .name{
         font-size: 22px;
+    }
+    
+    footer h3{
+        font-size: 14px;
     }
 }
 
@@ -201,5 +213,9 @@ footer{
 
     .event-info p > .name{
         font-size: 20px;
+    }
+    
+    footer h3{
+        font-size: 12px;
     }
 }
