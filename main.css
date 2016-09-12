@@ -125,6 +125,10 @@ footer{
     display: none;
 }
 
+.event-info .arrow{
+    float: right;
+}
+
 /* Responsiveness */
 
 @media (max-width: 1000px) and (min-width: 750px){
