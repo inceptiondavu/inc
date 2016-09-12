@@ -150,6 +150,14 @@ footer{
         font-size: 14px;
         height: 200px;
     }
+
+    .event-info p{
+        font-size: 16px;
+    }
+
+    .event-info p > .name{
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 525px) and (min-width: 400px){
@@ -161,6 +169,14 @@ footer{
     #events button{
         font-size: 12px;
         height: 150px;
+    }
+
+    .event-info p{
+        font-size: 14px;
+    }
+
+    .event-info p > .name{
+        font-size: 22px;
     }
 }
 
@@ -177,5 +193,13 @@ footer{
     #events button{
         font-size: 10px;
         height: 100px;
+    }
+
+    .event-info p{
+        font-size: 12px;
+    }
+
+    .event-info p > .name{
+        font-size: 20px;
     }
 }
