@@ -124,3 +124,24 @@ footer{
 .event-info .desc-hide{
     display: none;
 }
+
+/* Responsiveness */
+
+@media (max-width: 1000px) and (min-width: 550px){
+
+    #events button{
+        font-size: 18px;
+        padding: 15px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 550px){
+
+    #events button{
+        font-size: 14px;
+        padding: 10px;
+        height: 200px;
+    }
+
+}
