@@ -127,7 +127,7 @@ footer{
 
 /* Responsiveness */
 
-@media (max-width: 1000px) and (min-width: 550px){
+@media (max-width: 1000px) and (min-width: 750px){
 
     #events button{
         font-size: 18px;
@@ -136,12 +136,42 @@ footer{
     }
 }
 
-@media (max-width: 550px){
+@media (max-width: 750px) and (min-width: 525px){
+
+    #events{
+        margin-top: 50px;
+    }
 
     #events button{
         font-size: 14px;
-        padding: 10px;
         height: 200px;
     }
+}
 
+@media (max-width: 525px) and (min-width: 400px){
+
+    #events{
+        margin-top: 30px;
+    }
+
+    #events button{
+        font-size: 12px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px){
+
+    #register h2{
+        font-size: 22px;
+    }
+
+    #events{
+        margin-top: 10px;
+    }
+
+    #events button{
+        font-size: 10px;
+        height: 100px;
+    }
 }
