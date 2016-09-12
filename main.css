@@ -154,11 +154,11 @@ footer{
         height: 300px;
     }
     
-    #contact{
+    #about > div, #contact{
         margin-bottom: 40px;
     }
     
-    #contact h2{
+    #about > div > h2, #contact h2{
         font-size: 30px;    
     }
     
@@ -186,11 +186,11 @@ footer{
         font-size: 24px;
     }
     
-    #contact{
+    #about > div, #contact{
         margin-bottom: 30px;
     }
     
-    #contact h2{
+    #about > div > h2, #contact h2{
         font-size: 26px;    
     }
     
@@ -218,11 +218,11 @@ footer{
         font-size: 22px;
     }
     
-    #contact{
+    #about > div, #contact{
         margin-bottom: 20px;
     }
     
-    #contact h2{
+    #about > div > h2, #contact h2{
         font-size: 22px;    
     }
     
@@ -254,11 +254,11 @@ footer{
         font-size: 20px;
     }
     
-    #contact{
+    #about > div, #contact{
         margin-bottom: 10px;
     }
     
-    #contact h2{
+    #about > div > h2, #contact h2{
         font-size: 18px;    
     }
     
