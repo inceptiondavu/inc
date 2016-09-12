@@ -4,6 +4,8 @@ var main = function(){
 
     $(".event-info").click(function(){
         $(this).find(".desc-hide").toggle();
+        
+        //toggle arrow
         if( i === 0){
             $(this).find(".arrow").html("&#9650;");
             i = 1;
