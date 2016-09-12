@@ -46,6 +46,12 @@ body{
 
 #register a{
     color: #f9f9f9;
+    transition: font-size 0.5s ease;
+}
+
+#register a:hover{
+    color: white;
+    font-size: 46px;
 }
 
 #events{
