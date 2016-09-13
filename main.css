@@ -112,6 +112,7 @@ body{
 #desc-inception{
     margin: 0;
     background: #b5b5b7;
+    border-bottom: 2px solid #e8e8e8;
 }
 
 #desc-inception h3 span{
