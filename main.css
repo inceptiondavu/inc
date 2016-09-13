@@ -176,6 +176,7 @@ footer{
     #events button{
         font-size: 16px;
         height: 260px;
+        padding: 20px;
     }
 
     #desc-inception, .event-info p{
@@ -208,6 +209,7 @@ footer{
     #events button{
         font-size: 14px;
         height: 230px;
+        padding: 20px;
     }
 
     #desc-inception, .event-info p{
@@ -244,6 +246,7 @@ footer{
     #events button{
         font-size: 12px;
         height: 180px;
+        padding: 20px;
     }
 
     #desc-inception, .event-info p{
