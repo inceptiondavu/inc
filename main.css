@@ -112,7 +112,6 @@ body{
 #desc-inception{
     margin: 0;
     background: #b5b5b7;
-    border-bottom: 2px solid #e8e8e8;
 }
 
 #desc-inception h3 span{
@@ -128,6 +127,7 @@ body{
 #cta{
     background: #b5b5b7;
     border-bottom: 2px solid #e8e8e8;
+    border-top: 2px solid #e8e8e8;
 }
 
 #register{
@@ -135,6 +135,7 @@ body{
     padding: 20px;
     background: rgba(0,0,0,0.9);
     border-radius: 30%;
+    margin-top: 30px;
 }
 
 #register > h2{
