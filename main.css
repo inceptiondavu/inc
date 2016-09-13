@@ -50,6 +50,10 @@ body{
     text-decoration: none;
 }
 
+#to-top a:after{
+    color: white;
+}
+
 #desc-inception{
     margin: 0;
     background: #b5b5b7;
