@@ -3,6 +3,22 @@ var main = function(){
     var i = 0;
 
     $(".event-info").click(function(){
+        
+        //move the navbar with scroll
+        $(window).scroll(function(){
+            var height = $("#heading").outerHeight(true);
+            var win_height = $(window).scrollTop();
+            if(win_height > height){
+                $("nav").addClass("navbar-fixed-top");
+                $(".navbar").css("opacity", "0.6");
+            }
+            else{
+                $("nav").removeClass("navbar-fixed-top");
+                $(".navbar").css("opacity", "1");
+            }
+        });
+    
+        //toggle hide event description
         $(this).find(".desc-hide").toggle();
         
         //toggle arrow
