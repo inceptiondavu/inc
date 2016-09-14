@@ -179,13 +179,13 @@ body{
 }
 
 #workshop button{
-    font-size: 32px; 
+    font-size: 3.5rem; 
     font-family: 'Roboto Slab', serif;
     padding: 5px;
     background: #0e0b16;
     color: #f6f6f6;
     border: none;
-    width: 50%;
+    white-space: normal;
 }
 
 #about{
