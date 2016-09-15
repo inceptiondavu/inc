@@ -179,7 +179,7 @@ body{
 }
 
 #workshop button{
-    font-size: 3.5rem; 
+    font-size: 32px; 
     font-family: 'Roboto Slab', serif;
     padding: 15px;
     background: #0e0b16;
@@ -362,7 +362,7 @@ footer{
 
 @media (max-width: 400px){
 
-    #register h2{
+    #register h2, #workshop button{
         font-size: 22px;
     }
 
