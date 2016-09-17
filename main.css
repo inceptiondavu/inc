@@ -175,7 +175,7 @@ body{
 }
 
 #workshop{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #workshop button{
@@ -187,6 +187,7 @@ body{
     border: none;
     white-space: normal;
     width: 60%;
+    margin: 10px auto;
 }
 
 #about{
